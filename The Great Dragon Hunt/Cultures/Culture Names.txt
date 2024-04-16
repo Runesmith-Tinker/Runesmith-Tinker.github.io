@@ -1,0 +1,29 @@
+Humans
+  Rohand
+  Anor
+  Reabing
+  Dulandir (Nomadic)
+
+Elves
+  Eldar
+  Quenian
+
+Dark elves
+  Trow (Nomadic)
+
+Dwarves
+  Dunirr
+  Zundizar
+
+Orks
+  Ulguk (Hunters)
+  Ulkon (Hunters)
+
+Drakonics
+  Rake (Highlander)
+
+Goblins
+  Gnok (Hunters)
+
+Giants
+  Solkug (highlanders)

@@ -36,6 +36,12 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  font-family: 'Almendra', Lugrasimo, times new roman;
+  font-size: 2.75em;
+  text-align: center;
+}
+
 p {
   font-family: Lugrasimo, times new roman;
   font-size: 1.85em;
@@ -62,9 +68,8 @@ section {
 nav {
   -webkit-flex: 1;
   -ms-flex: 1;
-  flex: 1;
-  background: #ccc;
-  padding: 20px;
+  flex: 0;
+  padding: 10px;
 }
 
 /* Style the list inside the menu */
@@ -78,7 +83,6 @@ article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  background-color: #f1f1f1;
   padding: 10px;
 }
 
@@ -96,4 +100,33 @@ footer {
     -webkit-flex-direction: column;
     flex-direction: column;
   }
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.spoilerbutton {
+  display: block;
+  margin: 5px 0;
+}
+
+.spoiler {
+  overflow: hidden;
+}
+
+.spoiler>div {
+  margin: 5px;
+  overflow: hidden;
+  transition: all 0.1s ease;
+}
+
+.spoilerbutton[value="Show"]+.spoiler>div {
+  max-height: 0;
+}
+
+.spoilerbutton[value="Hide"]+.spoiler>div {
+  max-height: 500px; /*use a big value here*/
 }

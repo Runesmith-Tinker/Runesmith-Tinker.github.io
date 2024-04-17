@@ -6,6 +6,7 @@ body {
   background-color: silver;
 }
 
+
 h1 {
   font-family: times new roman;
   font-size: 60px;
@@ -13,7 +14,7 @@ h1 {
   text-align: center;
 }
 
-h1 {
+h2 {
   font-family: Fantasy;
   font-size: 45px;
   color: black;
@@ -25,4 +26,5 @@ p {
   font-size: 26px;
   color: black;
   text-align: center;
+  width: 90%;
 }

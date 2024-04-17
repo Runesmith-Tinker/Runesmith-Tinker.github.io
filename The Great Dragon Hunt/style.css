@@ -1,11 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Lugrasimo&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Almendra&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lugrasimo&effect=fire');
+@import url('https://fonts.googleapis.com/css?family=Almendra');
+@import url('https://fonts.googleapis.com/css?family=Sofia&effect=fire');
 
 @font-face {
     font-family: 'TaborSinfonia';
     src: url('fonts/TaborSinfonia.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: silver;
 }
 
 body {
@@ -18,13 +26,13 @@ body {
 
 
 h1 {
-  font-family: 'TaborSinfonia', times new roman;
+  font-family: 'TaborSinfonia', 'Almendra', Lugrasimo;
   font-size: 6.75em;
   text-align: center;
 }
 
 h2 {
-  font-family: 'Almendra', times new roman;
+  font-family: 'Almendra', Lugrasimo, times new roman;
   font-size: 3.5em;
   text-align: center;
 }
@@ -35,9 +43,4 @@ p {
   color: black;
   text-align: center;
   width: 90%;
-}
-
-.responsive {
-  max-width: 85%;
-  height: auto;
 }

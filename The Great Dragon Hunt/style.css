@@ -1,0 +1,17 @@
+body {
+  background-image: url('./Images/Background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-color: silver;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: times new roman;
+  font-size: 20px;
+}

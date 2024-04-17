@@ -7,11 +7,22 @@ body {
 }
 
 h1 {
+  font-family: times new roman;
+  font-size: 60px;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  font-family: Fantasy;
+  font-size: 45px;
   color: black;
   text-align: center;
 }
 
 p {
   font-family: times new roman;
-  font-size: 20px;
+  font-size: 26px;
+  color: black;
+  text-align: center;
 }

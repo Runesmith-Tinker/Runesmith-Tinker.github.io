@@ -87,7 +87,7 @@ p {
 
 .topnav {
   font-family: 'Lugrasimo', 'times new roman';
-  background-color: #333;
+  background-color: #947355;
   overflow: hidden;
 }
 
@@ -104,13 +104,13 @@ p {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #B57A44;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #921505;
   font-family: 'Lugrasimo', 'times new roman';
   color: white;
 }

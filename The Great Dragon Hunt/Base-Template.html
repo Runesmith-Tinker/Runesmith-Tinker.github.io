@@ -7,6 +7,17 @@
 		<link rel="stylesheet" href="https://runesmith-tinker.github.io/The%20Great%20Dragon%20Hunt//style.css">
 	</head>
 	<body>
+		<div class="topnav" id="myTopnav">
+			<a href="https://runesmith-tinker.github.io/The%20Great%20Dragon%20Hunt/Home.html" class="active">Home</a>
+			<a href="https://runesmith-tinker.github.io/The%20Great%20Dragon%20Hunt/History.html">History</a>
+			<a href="https://runesmith-tinker.github.io/The%20Great%20Dragon%20Hunt/Nations/Countries.html">Countries</a>
+			<a href="https://runesmith-tinker.github.io/The%20Great%20Dragon%20Hunt/Nations/Cultures/Cultures.html">Cultures</a>
+			<a href="https://runesmith-tinker.github.io/The%20Great%20Dragon%20Hunt/Nations/Cultures/peoples.html">Peoples</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+
 		<center>
 			<h1 header style="font-family: 'Almendra'"> Page Title </h1>
 			<h2 welcome> First Section Title </h2>
@@ -16,5 +27,16 @@
 				</b>
 			</p>
 		</center>
+
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+		</script>
 	</body>
 </html>

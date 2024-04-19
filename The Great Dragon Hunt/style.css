@@ -79,7 +79,7 @@ p {
 }
 
 .spoilerbutton[value="Hide"]+.spoiler>div {
-  max-height: 500px; /*use a big value here*/
+  max-height: 5000px; /*use a big value here*/
 }
 
 

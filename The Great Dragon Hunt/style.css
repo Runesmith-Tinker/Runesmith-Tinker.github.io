@@ -21,32 +21,27 @@ body {
 h1 {
   font-family: 'TaborSinfonia', 'Almendra', Lugrasimo;
   font-size: 6.75em;
-  text-align: center;
 }
 
 h2 {
   font-family: 'Almendra', Lugrasimo, times new roman;
   font-size: 3.5em;
-  text-align: center;
 }
 
 h3 {
   font-family: 'Almendra', Lugrasimo, times new roman;
   font-size: 3em;
-  text-align: center;
 }
 
 h4 {
   font-family: 'Almendra', Lugrasimo, times new roman;
   font-size: 2.75em;
-  text-align: center;
 }
 
 p {
   font-family: Lugrasimo, times new roman;
   font-size: 1.45em;
   color: black;
-  text-align: center;
   width: 75%;
 }
 
